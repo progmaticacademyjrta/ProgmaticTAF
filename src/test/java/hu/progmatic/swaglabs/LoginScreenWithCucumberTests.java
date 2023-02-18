@@ -2,6 +2,7 @@ package hu.progmatic.swaglabs;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.en.But;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -43,7 +44,7 @@ public class LoginScreenWithCucumberTests {
 
     @Given("Webpage has been loaded {string}")
     public void loadWebPage(String url) {
-        driver.get(url);
+
     }
 
     @When("The user enters the username as {string} and password as {string} and click to Login button")
